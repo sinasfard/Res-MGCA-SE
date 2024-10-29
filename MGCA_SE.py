@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from SE_block import SEBlock
 
-class MHCA_resnet_V2(nn.Module):
+class MGCA_SE(nn.Module):
     """
     Multi-Head Convolutional Attention
     """
