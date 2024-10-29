@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+from functools import partial
 from SE_block import SEBlock
 
 class MGCA_SE(nn.Module):
