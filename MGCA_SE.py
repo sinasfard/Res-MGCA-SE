@@ -7,7 +7,7 @@ class MGCA_SE(nn.Module):
     Multi-Head Convolutional Attention
     """
     def __init__(self, in_channels, out_channels, head_dim, projection_out_channels, channels_next_layer):
-        super(MHCA_resnet_V2, self).__init__()
+        super(MGCA_SE, self).__init__()
 
         norm_layer = partial(nn.BatchNorm2d, eps=NORM_EPS)
 
