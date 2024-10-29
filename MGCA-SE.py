@@ -1,6 +1,7 @@
 import torch
-from torch.nn import nn 
+import torch.nn as nn
 from SE_block import *
+
 class MHCA_resnet_V2(nn.Module):
     """
     Multi-Head Convolutional Attention
