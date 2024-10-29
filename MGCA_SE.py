@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from functools import partial
 from SE_block import SEBlock
+NORM_EPS = 1e-5
 
 class MGCA_SE(nn.Module):
     """
